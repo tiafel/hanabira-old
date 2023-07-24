@@ -1,0 +1,4 @@
+sqlalchemy>=0.6.0
+mutagen>=1.15
+pygments>=1.1dev
+chardet>=1.0.1

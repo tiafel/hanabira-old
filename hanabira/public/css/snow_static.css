@@ -1,0 +1,215 @@
+html, body {
+    background-color: #FAFAFA;
+	background-image: url(/images/snow_static.png);
+    color: #333333;
+    font-family: "Trebuchet MS",Trebuchet,tahoma,serif;
+}
+.fileinfo {
+    color: #666666;
+}
+.doubledash {
+	display: none;
+}
+.replypost {
+	margin-left: 20px;
+}
+.highlight, .reply, .popup {
+    background-color: #F3F3FF;
+    color: #333333;
+}
+.oppost {
+    background-color: #FAFAFA;
+	background-image: url(/images/snow_static.png);
+}
+.reply {
+    border-color: #8F8F8F;
+}
+.popup {
+	-moz-box-shadow: 5px 5px 10px #8495D8;
+	-webkit-box-shadow: 5px 5px 10px #8495D8;
+}
+.highlight {
+	border-color: #FF5500;
+}
+a {
+    color: #00305B;
+}
+.reflink a { 
+	color: inherit;
+}
+a:hover {
+    color: #0087FF;
+}
+.reflink {
+	font-size: .8em;
+	font-weight: bold;
+}
+.adminbar, .stylebar {
+    font-size: .8em;
+	font-weight: bold;
+}
+.theader, .passvalid {
+	background:#DDDDDD;
+	color: #2266AA;
+}
+.logo {
+	font-weight: bold;
+    color: #AAA;
+}
+.postblock {
+    background: transparent;
+    color: #002244;
+}
+.managehead {
+    background: #DDDDDD;
+}
+.postername {
+	color:#004A99;
+}
+.postertrip {
+    color:#FF3300;
+}
+.replytitle {
+    color:#002244;
+}
+dl.menu dt {
+    background: #DDDDDD;
+    border: solid 1px #CCCCCC;
+}
+dl.menu dd {
+    border-left: solid 1px #CCCCCC;
+}
+.spoiler {
+	background: #CCC;
+	color: #CCC;
+}
+.spoiler a {
+	background: #CCC;
+	color: #CCC;
+}
+.spoiler a:hover {
+    color: #333333 !important;
+}
+.spoiler blockquote {
+    background: #CCC;
+    color: #CCC;
+}
+.spoiler blockquote blockquote {
+    background: #CCC;
+    color: #CCC;
+}
+.spoiler blockquote blockquote blockquote {
+    background: #CCC;
+    color: #CCC;
+}
+.spoiler:hover {
+	background: #CCC !important;
+	color: #333333 !important;
+}
+#code_view .highlight {
+    background: #F7F7F7;
+}
+
+/*
+                           Main page
+*/
+
+.category {
+        font-family: sans-serif;
+        font-size: small;
+        margin-bottom: 8px;
+        background: #DDDDDD;
+}
+
+.header {
+        background: #CCCCCC;
+        color: #2266AA;
+        padding: 0px 3px 0px 3px;
+        font-weight: bold;
+        border-left: 1px solid #777777;
+        border-right: 1px solid #777777;
+        border-top: 1px solid #777777;
+}
+
+
+.list {
+        border-left: 1px solid #777777;
+        border-right: 1px solid #777777;
+        border-bottom: 1px solid #777777;
+}
+
+.list div a {
+        display: block;
+        text-decoration: none;
+        color: #FF6600;
+        padding: 0px 3px 0px 3px;
+}
+
+.list div a:hover {
+    color: #0066FF;
+    background: #EEEEEE;
+}
+
+.featuredimgtop {
+	background-image:url(/css/img/imgtop.png); 
+	background-position:top;
+	background-repeat:no-repeat;
+}
+
+.featuredimgbottom {
+	height:300px; 
+	background-image:url(/css/img/imgbottom.png); 
+	background-position:bottom; 
+	background-repeat:no-repeat;
+}
+
+.newsbg {
+	width:502px; 
+	background-color:#d0d0d0;
+}
+
+.newstop {
+	background-image:url(/css/img/top.png); 
+	background-position:top; 
+	background-repeat:no-repeat;
+}
+
+.newsbottom {
+	background-image:url(/css/img/bottom.png); 
+	background-position:bottom; 
+	background-repeat:no-repeat;
+}
+
+.newssize {
+padding:35px 40px 65px 45px; font-size:120%;
+}
+
+.names td {
+  background: #999;
+  color: #000;
+}
+.values td {
+  background: #ddd;
+  color: #333;
+}
+td.logo, td > .logo {
+  background: #fff;
+  font-size: 1.2em;
+}
+
+.reply_ {
+	background-image:url(/images/reply.snow.png);
+}
+.quote {
+	background-image:url(/images/quote.snow.png);
+}
+
+#playlist_list ul {
+	background-color:#F3F3FF;
+}
+#player_container {
+	background-color:#FFF;
+}
+#player_play, #player_pause, #ctrl_prev, #ctrl_next, #player_stop, #player_volume_min, #player_volume_max {
+	background-image: url("/images/music/icons.snow.png") !important;
+}

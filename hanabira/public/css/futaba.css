@@ -1,0 +1,343 @@
+.delete, .delete-file {
+    background-image:url(/images/delete.futaba.png);
+}
+.checked {
+    background-image:url(/images/delete_selected.png);
+}
+.hide {
+    background-image:url(/images/hidethread.futaba.png);
+}
+.close {
+    background-image:url(/images/close.futaba.png);
+}
+.reply_ {
+	background-image:url(/images/reply.futaba.png);
+}
+.quote {
+	background-image:url(/images/quote.futaba.png);
+}
+.add_ {
+	background-image:url(/images/music/add.futaba.png);
+}
+.play_ {
+	background-image:url(/images/music/play.futaba.png);
+}
+.remove_ {
+	background-image:url(/images/music/remove.futaba.png);
+}
+.icon {
+	font-size: 1.25em;
+}
+body {
+    background-color: #FFFFEE;
+    color: #600000;
+}
+.fileinfo {
+    color: #600000;
+}
+.reply, .highlight, .popup {
+    background-color: #F0E0D6;
+    color: #600000;
+}
+.oppost {
+    background-color: #FFFFEE;
+}
+.highlight {
+    border-color: #FF5500;
+}
+.reply {
+    border-color: #DDCCC5;
+}
+.popup {
+	-moz-box-shadow: 5px 5px 10px #988;
+	-webkit-box-shadow: 5px 5px 10px #988;
+}
+a {
+    color:#0000EE;
+}
+.reflink a { 
+    color: inherit;
+}
+a:hover {
+    color:#DD0000;
+}
+.adminbar b {
+	font-weight: normal;
+}
+.theader, .passvalid {
+	background: #E04000;
+	color: #FFFFFF;
+}
+.logo {
+    text-align: center;
+    color: #600000;
+}
+.postblock {
+	background: #EEAA88;
+	color: #600000;
+}
+.managehead {
+    background: #F0E0D6;
+}
+.postername {
+	color: #117743;
+}
+.postertrip {
+    color: #228854;
+}
+.replytitle {
+	color: #CC1105;
+}
+.pages {
+	border: solid 1px #DDCCC5;
+}
+dl.menu dt {
+    background: #F0E0D6;
+    border: solid 1px #DDCCC5;
+}
+dl.menu dd {
+    border-left: solid 1px #DDCCC5;
+}
+.spoiler {
+    background: #F0D0B6;
+    color: #F0D0B6;
+}
+.spoiler a {
+    background: #F0D0B6;
+    color: #F0D0B6;
+}
+.spoiler a:hover {
+    color: #600000 !important;
+}
+.spoiler blockquote {
+    background: #F0D0B6;
+    color: #F0D0B6;
+}
+.spoiler blockquote blockquote {
+    background: #F0D0B6;
+    color: #F0D0B6;
+}
+.spoiler blockquote blockquote blockquote {
+    background: #F0D0B6;
+    color: #F0D0B6;
+}
+.spoiler:hover {
+    background: #F0D0B6 !important;
+    color: #600000 !important;
+}
+.logline {
+    background: #F0E0D6;
+}
+#code_view .highlight {
+    background: #FFFFF7;
+}
+
+/*
+                           Main page
+*/
+
+
+.category {
+        font-family: sans-serif;
+        font-size: small;
+        margin-bottom: 8px;
+        background: #F0E0D6;
+}
+
+.header {
+        background: #EEAA88;
+        color: #600000;
+        padding: 0px 3px 0px 3px;
+        font-weight: bold;
+}
+
+
+.list {
+        border-left: 1px solid #F0E0D6;
+        border-right: 1px solid #F0E0D6;
+        border-bottom: 1px solid #F0E0D6;
+}
+
+.list div a {
+        display: block;
+        text-decoration: none;
+        color: #600000;
+        padding: 0px 3px 0px 3px;
+}
+
+.list div a:hover {
+        background: #FFFFEE;
+}
+
+.featuredimgtop {
+	background-image:url(/css/img/imgtop.futaba.png); 
+	background-position:top;
+	background-repeat:no-repeat;
+}
+
+.featuredimgbottom {
+	height:300px; 
+	background-image:url(/css/img/imgbottom.futaba.png); 
+	background-position:bottom; 
+	background-repeat:no-repeat;
+}
+
+.newsbg {
+	width:502px; 
+	background-color:#f0e0d6;
+}
+
+.newstop {
+	background-image:url(/css/img/top.futaba.png); 
+	background-position:top; 
+	background-repeat:no-repeat;
+}
+
+.newsbottom {
+	background-image:url(/css/img/bottom.futaba.png); 
+	background-position:bottom; 
+	background-repeat:no-repeat;
+}
+
+.newssize {
+	padding:35px 40px 80px 45px; font-size:120%;
+}
+/* Player skin */
+
+#player_container {
+	background-color:#FFFFEE;
+	border:1px solid #FF9D00;
+}
+#player_play {
+	background: url("/images/music/icons.futaba.png") 0 0 no-repeat;
+}
+
+#player_play.jqjp_hover {
+	background: url("/images/music/icons.futaba.png") -41px 0 no-repeat;
+}
+#player_pause {
+	background: url("/images/music/icons.futaba.png") 0 -42px no-repeat;
+}
+#player_pause.jqjp_hover {
+	background: url("/images/music/icons.futaba.png") -41px -42px no-repeat;
+}
+
+#ctrl_prev {
+	background: url("/images/music/icons.futaba.png") 0 -112px no-repeat;
+}
+
+#ctrl_prev:hover {
+	background: url("/images/music/icons.futaba.png") -29px -112px no-repeat;
+}
+
+#ctrl_prev.disabled {
+	background: url("/images/music/icons.futaba.png") -58px -112px no-repeat;
+	cursor:default;
+}
+
+#ctrl_next {
+	background: url("/images/music/icons.futaba.png") 0 -141px no-repeat;
+}
+
+#ctrl_next:hover {
+	background: url("/images/music/icons.futaba.png") -29px -141px no-repeat;
+}
+
+#ctrl_next.disabled {
+	background: url("/images/music/icons.futaba.png") -58px -141px no-repeat;
+	cursor:default;
+}
+
+
+#player_stop {
+	background: url("/images/music/icons.futaba.png") 0 -83px no-repeat;
+}
+#player_stop.jqjp_hover {
+	background: url("/images/music/icons.futaba.png") -29px -83px no-repeat;
+}
+#player_progress {
+	position: absolute;
+	left:164px;
+	top:32px;
+	background-color: #FFFFEE;
+	width:122px;
+	height:15px;
+}
+#player_progress_load_bar {
+	background: url("/images/music/bar_load.futaba.png")  top left repeat-x;
+	width:0px;
+	height:15px;
+}
+#player_progress_play_bar {
+	background: url("/images/music/bar_play.futaba.png") top left repeat-x ;
+	width:0px;
+	height:15px;
+}
+#player_volume_min {
+	left:296px;
+	top:32px;
+	background: url("/images/music/icons.futaba.png") 0 -170px no-repeat;
+	width:18px;
+	height:15px;
+}
+
+#player_volume_max {
+	left:368px;
+	top:32px;
+	background: url("/images/music/icons.futaba.png") 0 -186px no-repeat;
+	width:18px;
+	height:15px;
+}
+
+#player_volume_min.jqjp_hover {
+	background: url("/images/music/icons.futaba.png") -19px -170px no-repeat;
+}
+
+#player_volume_max.jqjp_hover {
+	background: url("/images/music/icons.futaba.png") -19px -186px no-repeat;
+}
+
+#player_volume_bar {
+	left:314px;
+	top:37px;
+	background: url("/images/music/volume_bar.futaba.png") repeat-x top left;
+	width:46px;
+	height:5px;
+}
+#player_volume_bar_value {
+	background: url("/images/music/volume_bar_value.futaba.png") repeat-x top left;
+	width:0px;
+	height:5px;
+}
+#playlist_list {
+	width:418px;
+}
+
+#playlist_list ul{
+	list-style-type:none;
+	padding:10px 20px 20px 20px;
+	margin:0 0 10px 0;
+	background-color:#F0E0D6;
+	border:1px solid #FF9D00;
+	border-top:none;
+	width:378px;
+	font-size:.9em;
+}
+
+#playlist_list li{
+	padding:4px 0 4px 20px;
+	border-bottom:1px solid #FFFFEE;
+	cursor: pointer;
+}
+
+#playlist_list li.playlist_current{
+	color:#FF9D00;
+	list-style-type:square;
+	list-style-position:inside;
+	padding-left:6px;
+	cursor: default;
+}
+
+#playlist_list li.playlist_hover {
+	color:#FF9D00;
+}

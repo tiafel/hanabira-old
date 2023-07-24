@@ -1,0 +1,23 @@
+1. Create python3.4 virtual environment
+
+virtualenv --no-site-packages -p /usr/bin/python3.4 ~/venv_hanabira
+
+2. Activate virtual environment
+
+source ~/venv_hanabira/bin/activate
+
+3. Install requirements
+
+./requirements.sh
+
+4. Make config file.
+
+cp confs/development.ini.template confs/development.ini
+
+Edit confs/development.ini with appropriate settings
+
+5. Create database tables
+
+6. Run hanabira
+
+python ./serve.py confs/development.ini

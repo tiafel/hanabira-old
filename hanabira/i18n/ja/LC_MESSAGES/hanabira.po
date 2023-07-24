@@ -1,0 +1,1204 @@
+# Japanese translations for hanabira.
+# Copyright (C) 2009 ORGANIZATION
+# This file is distributed under the same license as the hanabira project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: hanabira 0.5.405\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2011-08-06 06:45+1100\n"
+"PO-Revision-Date: 2010-01-25 05:23+0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.6\n"
+
+#: hanabira/controllers/actions.py:104
+msgid "No such post"
+msgstr ""
+
+#: hanabira/controllers/actions.py:107
+msgid "Cannot vote for own posts"
+msgstr ""
+
+#: hanabira/controllers/actions.py:112
+msgid "No such board"
+msgstr ""
+
+#: hanabira/controllers/actions.py:122
+msgid "Already voted"
+msgstr ""
+
+#: hanabira/controllers/actions.py:128
+msgid "You have no votes left, make more posts."
+msgstr ""
+
+#: hanabira/controllers/admin.py:35
+msgid "Management"
+msgstr "経営"
+
+#: hanabira/controllers/admin.py:98 hanabira/controllers/admin.py:104
+#: hanabira/controllers/admin.py:123 hanabira/controllers/admin.py:130
+#: hanabira/templates/admin/admins.mako:3 hanabira/templates/admin/menu.mako:2
+msgid "Admins"
+msgstr "管理者"
+
+#: hanabira/controllers/admin.py:149 hanabira/controllers/admin.py:211
+#: hanabira/controllers/admin.py:226 hanabira/templates/admin/boards.mako:8
+#: hanabira/templates/admin/menu.mako:5
+msgid "Boards"
+msgstr "板"
+
+#: hanabira/controllers/admin.py:155 hanabira/controllers/view.py:257
+#: hanabira/templates/menu.mako:23 hanabira/templates/menu.mako:27
+#: hanabira/templates/admin/menu.mako:23
+#: hanabira/templates/admin/settings.mako:3
+msgid "Settings"
+msgstr "設定変更"
+
+#: hanabira/controllers/admin.py:172 hanabira/controllers/admin.py:178
+#: hanabira/controllers/admin.py:193 hanabira/controllers/view.py:297
+#: hanabira/controllers/view.py:306 hanabira/templates/admin/help.mako:3
+#: hanabira/templates/admin/menu.mako:35
+msgid "Help"
+msgstr "ヘルプ"
+
+#: hanabira/controllers/admin.py:245 hanabira/controllers/admin.py:263
+msgid "Sections"
+msgstr "一節"
+
+#: hanabira/controllers/admin.py:279 hanabira/templates/admin/menu.mako:11
+msgid "Invites"
+msgstr ""
+
+#: hanabira/controllers/admin.py:288 hanabira/templates/admin/menu.mako:37
+#: hanabira/templates/admin/profile.mako:5
+msgid "Profile"
+msgstr "プロフィール"
+
+#: hanabira/controllers/admin.py:305 hanabira/templates/admin/menu.mako:32
+msgid "Files"
+msgstr "ファイル"
+
+#: hanabira/controllers/admin.py:355 hanabira/controllers/admin.py:797
+#: hanabira/templates/admin/menu.mako:17
+msgid "Referers"
+msgstr ""
+
+#: hanabira/controllers/admin.py:369 hanabira/templates/admin/menu.mako:26
+msgid "Restrictions"
+msgstr "制限"
+
+#: hanabira/controllers/admin.py:398
+msgid "added"
+msgstr ""
+
+#: hanabira/controllers/admin.py:410
+msgid "disabled"
+msgstr ""
+
+#: hanabira/controllers/admin.py:410
+msgid "enabled"
+msgstr ""
+
+#: hanabira/controllers/admin.py:472 hanabira/controllers/admin.py:560
+msgid "invisible"
+msgstr ""
+
+#: hanabira/controllers/admin.py:472 hanabira/controllers/admin.py:560
+msgid "visible"
+msgstr ""
+
+#: hanabira/controllers/admin.py:488
+#, fuzzy
+msgid "This post's thread is deleted."
+msgstr ""
+
+#: hanabira/controllers/admin.py:490
+#, fuzzy
+msgid "This post is deleted."
+msgstr ""
+
+#: hanabira/controllers/admin.py:496
+msgid "This post's thread doesn't exist."
+msgstr ""
+
+#: hanabira/controllers/admin.py:498
+msgid "This post doesn't exist."
+msgstr ""
+
+#: hanabira/controllers/admin.py:524 hanabira/lib/base.py:82
+#, fuzzy
+msgid "This thread is deleted."
+msgstr "糸は広げてあります"
+
+#: hanabira/controllers/admin.py:535
+msgid "This thread doesn't exist."
+msgstr ""
+
+#: hanabira/controllers/admin.py:615 hanabira/controllers/api.py:127
+#: hanabira/controllers/api.py:141
+msgid "Boardname is incorrect."
+msgstr ""
+
+#: hanabira/controllers/admin.py:750 hanabira/templates/admin/menu.mako:29
+msgid "Last posts"
+msgstr ""
+
+#: hanabira/controllers/admin.py:816
+#: hanabira/templates/admin/admins.edit.mako:21
+#: hanabira/templates/admin/menu.mako:20
+msgid "Permissions"
+msgstr "許可"
+
+#: hanabira/controllers/api.py:123
+msgid "Post is deleted."
+msgstr ""
+
+#: hanabira/controllers/api.py:125
+msgid "Thread is deleted."
+msgstr ""
+
+#: hanabira/controllers/api.py:139
+msgid "This thread does not exist anymore."
+msgstr ""
+
+#: hanabira/controllers/error.py:28
+#, python-format
+msgid "some file \"%s\""
+msgstr ""
+
+#: hanabira/controllers/error.py:40
+#, python-format
+msgid "Error %s"
+msgstr ""
+
+#: hanabira/controllers/search.py:14 hanabira/templates/search_form.mako:14
+msgid "Search"
+msgstr ""
+
+#: hanabira/controllers/search.py:34
+msgid "No such search query found"
+msgstr ""
+
+#: hanabira/controllers/search.py:44
+msgid "Sphinx is disabled"
+msgstr ""
+
+#: hanabira/controllers/search.py:54
+msgid "No records found"
+msgstr ""
+
+#: hanabira/controllers/view.py:212
+msgid "You should enable cookies."
+msgstr ""
+
+#: hanabira/controllers/view.py:272
+msgid "Subscription"
+msgstr ""
+
+#: hanabira/forms/__init__.py:31 hanabira/forms/admins.py:19
+msgid "Passwords do not match"
+msgstr ""
+
+#: hanabira/forms/admins.py:28
+msgid "Account with such login already exists"
+msgstr ""
+
+#: hanabira/forms/admins.py:32
+msgid "Account with such email already exists"
+msgstr ""
+
+#: hanabira/forms/admins.py:39 hanabira/forms/admins.py:48
+#: hanabira/forms/admins.py:57 hanabira/templates/newpost.mako:83
+#: hanabira/templates/auth/login.mako:12 hanabira/templates/view/posts.mako:24
+msgid "Password"
+msgstr "パスワード"
+
+#: hanabira/forms/admins.py:40 hanabira/forms/admins.py:49
+#: hanabira/forms/admins.py:58
+msgid "Repeat password"
+msgstr "再入力"
+
+#: hanabira/lib/helpers.py:97
+msgid "Global"
+msgstr ""
+
+#: hanabira/lib/helpers.py:102
+msgid "Error"
+msgstr "エラー"
+
+#: hanabira/lib/utils.py:67
+msgid "unknown charset"
+msgstr ""
+
+#: hanabira/lib/utils.py:117
+#, python-format
+msgid ""
+"%s returned error:\n"
+"%s"
+msgstr ""
+
+#: hanabira/model/boards.py:176
+msgid "This thread is too old, please confirm that you are human."
+msgstr ""
+
+#: hanabira/model/boards.py:182
+msgid "You reached new threads limit, please confirm that you are human."
+msgstr ""
+
+#: hanabira/model/boards.py:195
+msgid "You reached consecutive replies limit, please confirm that you are human."
+msgstr ""
+
+#: hanabira/model/boards.py:405 hanabira/model/boards.py:418
+#, python-format
+msgid "%s permission check failed"
+msgstr ""
+
+#: hanabira/model/boards.py:408
+#, fuzzy, python-format
+msgid "Thread %s is archived"
+msgstr "糸は広げてあります"
+
+#: hanabira/model/boards.py:411
+#, python-format
+msgid "Thread %s is locked"
+msgstr ""
+
+#: hanabira/model/boards.py:448
+#, python-format
+msgid "Thread %s does not exist"
+msgstr ""
+
+#: hanabira/model/boards.py:501
+msgid "Message should not exceed 60000 chars (your is {0} chars)"
+msgstr ""
+
+#: hanabira/model/boards.py:539
+msgid "You should either write message or add file"
+msgstr ""
+
+#: hanabira/model/boards.py:542
+msgid "You have to add at least one file for new thread"
+msgstr ""
+
+#: hanabira/model/boards.py:544
+msgid "You should either write subject or message"
+msgstr ""
+
+#: hanabira/model/boards.py:546
+msgid "You have to add at least one file"
+msgstr ""
+
+#: hanabira/model/boards.py:561 hanabira/model/boards.py:567
+msgid "Incorrect captcha"
+msgstr ""
+
+#: hanabira/model/boards.py:697
+msgid "Can't delete posts from archive."
+msgstr ""
+
+#: hanabira/model/boards.py:703
+msgid "Wrong delete password."
+msgstr ""
+
+#: hanabira/model/files.py:82
+msgid "Click the image to get file"
+msgstr "サムネ表示"
+
+#: hanabira/model/files.py:141 hanabira/model/files.py:175
+msgid "Click the image to expand"
+msgstr "サムネ表示"
+
+#: hanabira/model/files.py:184
+msgid "Click the image to open file"
+msgstr "サムネ表示"
+
+#: hanabira/model/files.py:375 hanabira/model/files.py:415
+msgid "file is empty"
+msgstr ""
+
+#: hanabira/model/files.py:385
+#, python-format
+msgid "%s, %.2f KB, %s lines"
+msgstr ""
+
+#: hanabira/model/files.py:463
+msgid "unknown archive type"
+msgstr ""
+
+#: hanabira/model/files.py:467
+#, python-format
+msgid "%s, %.2f KB, %s files"
+msgstr ""
+
+#: hanabira/model/files.py:504
+#, fuzzy, python-format
+msgid ", %s page"
+msgid_plural ", %s pages"
+msgstr[0] ""
+
+#: hanabira/model/files.py:787
+#, python-format
+msgid "%s: file (%.2f kb) is too big"
+msgstr ""
+
+#: hanabira/model/files.py:789
+#, python-format
+msgid "%s: file (%.2f kb) is too small"
+msgstr ""
+
+#: hanabira/model/files.py:791 hanabira/model/files.py:814
+#: hanabira/model/files.py:837
+#, python-format
+msgid "%s: unknown file type"
+msgstr ""
+
+#: hanabira/model/files.py:810 hanabira/model/files.py:833
+#, python-format
+msgid "%s: file is too big"
+msgstr ""
+
+#: hanabira/model/files.py:812 hanabira/model/files.py:835
+#, python-format
+msgid "%s: file is too small"
+msgstr ""
+
+#: hanabira/model/files.py:864
+#, python-format
+msgid "%s: %s"
+msgstr ""
+
+#: hanabira/model/files.py:888
+#, python-format
+msgid "%s: could not be processed"
+msgstr ""
+
+#: hanabira/templates/boardinfo.mako:9
+msgid ""
+"By posting you confirm that you have read and agreed with <a "
+"href=\"/help/tos\">our ToS</a>"
+msgstr ""
+
+#: hanabira/templates/boardinfo.mako:10
+msgid "You can use <a href=\"/help/wakabamark\">wakabamark</a> in your messages"
+msgstr ""
+
+#: hanabira/templates/boardinfo.mako:13
+msgid "New threads must have at least one file."
+msgstr ""
+
+#: hanabira/templates/boardinfo.mako:16
+msgid "New replies must have at least one file."
+msgstr ""
+
+#: hanabira/templates/boardinfo.mako:19
+msgid "This board shows original filenames."
+msgstr ""
+
+#: hanabira/templates/boardinfo.mako:21
+#, python-format
+msgid "Allowed file types: %s"
+msgstr ""
+
+#: hanabira/templates/boardinfo.mako:23
+msgid "Files are not allowed on this board."
+msgstr ""
+
+#: hanabira/templates/boardinfo.mako:26
+msgid "OP can delete posts with OP-password."
+msgstr ""
+
+#: hanabira/templates/boardinfo.mako:29
+#, python-format
+msgid "Only one post per %s seconds is allowed"
+msgstr ""
+
+#: hanabira/templates/boardinfo.mako:31
+#, python-format
+msgid "Threads stop bumping after %s posts."
+msgstr ""
+
+#: hanabira/templates/boardinfo.mako:32
+#, python-format
+msgid "Threads with more than %s replies can not be deleted."
+msgstr ""
+
+#: hanabira/templates/boardinfo.mako:34
+#, python-format
+msgid "Old threads are moved to <a href=\"%s\">archive</a> after %s pages."
+msgstr ""
+
+#: hanabira/templates/menu.mako:19
+msgid "Admin Panel"
+msgstr ""
+
+#: hanabira/templates/menu.mako:20
+msgid "Logout"
+msgstr "ログアウト"
+
+#: hanabira/templates/menu.mako:24 hanabira/templates/menu.mako:28
+msgid "Bookmarks"
+msgstr ""
+
+#: hanabira/templates/menu.mako:26
+msgid "Main"
+msgstr "メインページ"
+
+#: hanabira/templates/menu.mako:29
+msgid "Music Player"
+msgstr "オーディオプレーヤー"
+
+#: hanabira/templates/newpost.mako:3
+msgid "There are some errors in your post."
+msgstr ""
+
+#: hanabira/templates/newpost.mako:9
+msgid "Unhide form"
+msgstr ""
+
+#: hanabira/templates/newpost.mako:16
+#, python-format
+msgid "Reply to thread %s."
+msgstr ""
+
+#: hanabira/templates/newpost.mako:17 hanabira/templates/error/404.mako:6
+msgid "Back"
+msgstr "後ろ"
+
+#: hanabira/templates/newpost.mako:27
+msgid "Hide form"
+msgstr ""
+
+#: hanabira/templates/newpost.mako:45
+msgid "Name"
+msgstr "おなまえ"
+
+#: hanabira/templates/newpost.mako:53
+msgid "Sage"
+msgstr "下げ"
+
+#: hanabira/templates/newpost.mako:58
+msgid "Subject"
+msgstr "題　　名"
+
+#: hanabira/templates/newpost.mako:61
+msgid "Post"
+msgstr "送信する"
+
+#: hanabira/templates/newpost.mako:66
+#: hanabira/templates/utils/image.edit.mako:73
+#: hanabira/templates/utils/image.edit.mako:100
+msgid "Text"
+msgstr "コメント"
+
+#: hanabira/templates/newpost.mako:71 hanabira/templates/newpost.mako:73
+msgid "Captcha"
+msgstr "キャプチャ、"
+
+#: hanabira/templates/newpost.mako:77
+msgid "You do not need to enter captcha."
+msgstr ""
+
+#: hanabira/templates/newpost.mako:90
+msgid "File"
+msgstr "画像データ"
+
+#: hanabira/templates/newpost.mako:95
+#, python-format
+msgid "File %s, %s bytes."
+msgstr ""
+
+#: hanabira/templates/newpost.mako:110 hanabira/templates/view/post.mako:211
+msgid "Add new file"
+msgstr ""
+
+#: hanabira/templates/newpost.mako:116 hanabira/templates/view/settings.mako:39
+msgid "Go back to"
+msgstr ""
+
+#: hanabira/templates/newpost.mako:119
+msgid "board"
+msgstr "板"
+
+#: hanabira/templates/newpost.mako:120
+msgid "thread"
+msgstr "糸"
+
+#: hanabira/templates/newpost.mako:121
+#, python-format
+msgid "page %s"
+msgstr "%s ページ"
+
+#: hanabira/templates/search_form.mako:4
+#, fuzzy
+#| msgid "board"
+msgid "All boards"
+msgstr "板"
+
+#: hanabira/templates/search_form.mako:6
+#, fuzzy
+#| msgid "board"
+msgid "This board"
+msgstr "板"
+
+#: hanabira/templates/admin/admins.edit.mako:5
+#, python-format
+msgid "Edit admin %s"
+msgstr ""
+
+#: hanabira/templates/admin/admins.edit.mako:6
+#: hanabira/templates/admin/session.mako:8
+msgid "Account"
+msgstr ""
+
+#: hanabira/templates/admin/admins.edit.mako:9
+#: hanabira/templates/admin/boards.edit.mako:14
+#: hanabira/templates/admin/help.edit.mako:14
+#: hanabira/templates/admin/sections.mako:14
+#: hanabira/templates/admin/settings.mako:18
+#: hanabira/templates/utils/text.mako:28
+msgid "Edit"
+msgstr "変更"
+
+#: hanabira/templates/admin/admins.edit.mako:11
+msgid "Keys"
+msgstr ""
+
+#: hanabira/templates/admin/admins.edit.mako:17
+msgid "No keys"
+msgstr ""
+
+#: hanabira/templates/admin/admins.edit.mako:20
+#: hanabira/templates/admin/admins.edit.mako:40
+#: hanabira/templates/admin/featured_add.mako:11
+#: hanabira/templates/admin/filter.mako:38
+#: hanabira/templates/admin/filter.mako:47
+#: hanabira/templates/admin/restrictions.mako:21
+msgid "Add"
+msgstr "付ける"
+
+#: hanabira/templates/admin/admins.edit.mako:24
+msgid "Delete"
+msgstr "消す"
+
+#: hanabira/templates/admin/admins.edit.mako:27
+msgid "Permission"
+msgstr ""
+
+#: hanabira/templates/admin/admins.edit.mako:33
+msgid "Scope"
+msgstr ""
+
+#: hanabira/templates/admin/admins.edit.mako:42
+msgid "Effective permissions"
+msgstr ""
+
+#: hanabira/templates/admin/boards.edit.mako:6
+msgid "Edit board"
+msgstr ""
+
+#: hanabira/templates/admin/boards.edit.mako:9
+msgid "New board"
+msgstr "新しい板"
+
+#: hanabira/templates/admin/boards.edit.mako:16
+#: hanabira/templates/admin/help.edit.mako:16
+#: hanabira/templates/admin/sections.mako:16
+msgid "Create"
+msgstr ""
+
+#: hanabira/templates/admin/boards.mako:3
+msgid "Sections and boards"
+msgstr ""
+
+#: hanabira/templates/admin/boards.mako:7
+msgid "Section"
+msgstr ""
+
+#: hanabira/templates/admin/boards.mako:7
+#: hanabira/templates/admin/boards.mako:8 hanabira/templates/admin/help.mako:5
+#: hanabira/templates/admin/referers_list.mako:10
+msgid "New"
+msgstr "新しい"
+
+#: hanabira/templates/admin/featured.mako:10
+msgid "Find"
+msgstr "探す"
+
+#: hanabira/templates/admin/file.mako:10
+msgid "File ID"
+msgstr ""
+
+#: hanabira/templates/admin/file.mako:11
+#: hanabira/templates/utils/image.edit.mako:130
+#: hanabira/templates/utils/image.new.mako:15
+msgid "Filename"
+msgstr "ファイルの名前"
+
+#: hanabira/templates/admin/file.mako:12
+msgid "Filetype"
+msgstr "ファイルのタイプ"
+
+#: hanabira/templates/admin/file.mako:13
+msgid "Size"
+msgstr ""
+
+#: hanabira/templates/admin/file.mako:14
+msgid "Extension"
+msgstr ""
+
+#: hanabira/templates/admin/file.mako:15
+msgid "Rating"
+msgstr ""
+
+#: hanabira/templates/admin/file.mako:16
+msgid "Metadata"
+msgstr ""
+
+#: hanabira/templates/admin/filter.mako:6
+msgid "Filters"
+msgstr ""
+
+#: hanabira/templates/admin/filter.mako:7
+msgid "Sorting"
+msgstr ""
+
+#: hanabira/templates/admin/filter.mako:52
+msgid "show entries per page"
+msgstr ""
+
+#: hanabira/templates/admin/filter.mako:52
+msgid "Apply"
+msgstr "変更"
+
+#: hanabira/templates/admin/help.edit.mako:6
+msgid "Edit article"
+msgstr ""
+
+#: hanabira/templates/admin/help.edit.mako:9
+msgid "New article"
+msgstr "新しい項目"
+
+#: hanabira/templates/admin/invites.mako:15
+msgid "Reason:"
+msgstr ""
+
+#: hanabira/templates/admin/invites.mako:20
+msgid "Make invite"
+msgstr ""
+
+#: hanabira/templates/admin/logs_list.mako:4
+#: hanabira/templates/admin/referers_list.mako:4
+msgid "Date"
+msgstr ""
+
+#: hanabira/templates/admin/logs_list.mako:6
+#: hanabira/templates/admin/referers_list.mako:8
+msgid "IP"
+msgstr ""
+
+#: hanabira/templates/admin/logs_list.mako:7
+#, fuzzy
+msgid "session"
+msgstr "許可"
+
+#: hanabira/templates/admin/logs_list.mako:9
+msgid "Record"
+msgstr ""
+
+#: hanabira/templates/admin/menu.mako:8
+msgid "Logs"
+msgstr ""
+
+#: hanabira/templates/admin/menu.mako:14
+msgid "Statistics"
+msgstr ""
+
+#: hanabira/templates/admin/permission.error.mako:5
+msgid "Permissions error"
+msgstr ""
+
+#: hanabira/templates/admin/permission.error.mako:7
+#, python-format
+msgid "You must have global '%s' permission to do this action."
+msgstr ""
+
+#: hanabira/templates/admin/permission.error.mako:9
+#, python-format
+msgid "You must have '%s' permission to do this action."
+msgstr ""
+
+#: hanabira/templates/admin/post_data.mako:23
+#: hanabira/templates/admin/session.mako:11
+#: hanabira/templates/view/post.mako:80
+msgid "Invisible"
+msgstr ""
+
+#: hanabira/templates/admin/profile.mako:8
+msgid "Change"
+msgstr ""
+
+#: hanabira/templates/admin/referers_list.mako:5
+msgid "Domain"
+msgstr "管理者"
+
+#: hanabira/templates/admin/referers_list.mako:6
+msgid "Referer"
+msgstr ""
+
+#: hanabira/templates/admin/referers_list.mako:7
+msgid "Target"
+msgstr "下げ"
+
+#: hanabira/templates/admin/referers_list.mako:9
+msgid "Session"
+msgstr "許可"
+
+#: hanabira/templates/admin/referers_list.mako:20
+#: hanabira/templates/admin/restrictions.mako:41
+msgid "Yes"
+msgstr ""
+
+#: hanabira/templates/admin/referers_list.mako:20
+#: hanabira/templates/admin/restrictions.mako:41
+msgid "No"
+msgstr ""
+
+#: hanabira/templates/admin/restrictions.mako:8
+msgid "New restriction"
+msgstr ""
+
+#: hanabira/templates/admin/restrictions.mako:9
+#: hanabira/templates/admin/restrictions.mako:29
+msgid "Type"
+msgstr ""
+
+#: hanabira/templates/admin/restrictions.mako:14
+msgid "value"
+msgstr ""
+
+#: hanabira/templates/admin/restrictions.mako:15
+msgid "effect"
+msgstr ""
+
+#: hanabira/templates/admin/restrictions.mako:20
+msgid "comment"
+msgstr ""
+
+#: hanabira/templates/admin/restrictions.mako:30
+msgid "Value"
+msgstr ""
+
+#: hanabira/templates/admin/restrictions.mako:31
+msgid "Effect"
+msgstr ""
+
+#: hanabira/templates/admin/restrictions.mako:32
+msgid "Active"
+msgstr ""
+
+#: hanabira/templates/admin/restrictions.mako:33
+#: hanabira/templates/utils/image.edit.mako:64
+msgid "Comment"
+msgstr ""
+
+#: hanabira/templates/admin/restrictions.mako:34
+msgid "Actions"
+msgstr ""
+
+#: hanabira/templates/admin/restrictions.mako:43
+msgid "Enable"
+msgstr ""
+
+#: hanabira/templates/admin/restrictions.mako:43
+msgid "Disable"
+msgstr ""
+
+#: hanabira/templates/admin/sections.mako:6
+msgid "Edit section"
+msgstr ""
+
+#: hanabira/templates/admin/sections.mako:9
+msgid "New section"
+msgstr ""
+
+#: hanabira/templates/admin/session.mako:10
+msgid "Created at"
+msgstr ""
+
+#: hanabira/templates/admin/session.mako:12
+msgid "Enforced captcha complexity"
+msgstr ""
+
+#: hanabira/templates/admin/session.mako:13
+msgid "Post count"
+msgstr ""
+
+#: hanabira/templates/admin/session.mako:14
+msgid "Deleted posts"
+msgstr ""
+
+#: hanabira/templates/admin/session.mako:19
+msgid "Update"
+msgstr ""
+
+#: hanabira/templates/admin/stub.mako:5
+msgid "This function is not implemented yet"
+msgstr ""
+
+#: hanabira/templates/auth/login.mako:5
+msgid "Admin login"
+msgstr ""
+
+#: hanabira/templates/auth/login.mako:8
+msgid "Login"
+msgstr ""
+
+#: hanabira/templates/auth/login.mako:15
+msgid "Log in"
+msgstr ""
+
+#: hanabira/templates/auth/register.mako:5
+msgid "New account"
+msgstr ""
+
+#: hanabira/templates/error/404.mako:5
+msgid "Error 404. Nothing to see here. Move along."
+msgstr ""
+
+#: hanabira/templates/search/result.mako:3
+#, python-format
+msgid "Searched for \"%s\", found %s posts and %s files from %s threads."
+msgstr ""
+
+#: hanabira/templates/utils/image.edit.mako:18
+msgid "Preview"
+msgstr ""
+
+#: hanabira/templates/utils/image.edit.mako:28
+msgid "Source image"
+msgstr ""
+
+#: hanabira/templates/utils/image.edit.mako:36
+#: hanabira/templates/utils/image.new.mako:27
+msgid "Tool"
+msgstr ""
+
+#: hanabira/templates/utils/image.edit.mako:39
+msgid "(De)motivator"
+msgstr ""
+
+#: hanabira/templates/utils/image.edit.mako:40
+msgid "Macro"
+msgstr ""
+
+#: hanabira/templates/utils/image.edit.mako:41
+msgid "Shi Painter Normal"
+msgstr ""
+
+#: hanabira/templates/utils/image.edit.mako:42
+msgid "Shi Painter Pro"
+msgstr ""
+
+#: hanabira/templates/utils/image.edit.mako:49
+msgid "Orientation"
+msgstr ""
+
+#: hanabira/templates/utils/image.edit.mako:52
+msgid "Landscape"
+msgstr ""
+
+#: hanabira/templates/utils/image.edit.mako:54
+msgid "Portrait"
+msgstr ""
+
+#: hanabira/templates/utils/image.edit.mako:56
+msgid "Custom"
+msgstr ""
+
+#: hanabira/templates/utils/image.edit.mako:60
+msgid "Title"
+msgstr ""
+
+#: hanabira/templates/utils/image.edit.mako:70
+msgid "Top text"
+msgstr ""
+
+#: hanabira/templates/utils/image.edit.mako:77
+#: hanabira/templates/utils/image.edit.mako:104
+#, fuzzy
+msgid "Align"
+msgstr "メインページ"
+
+#: hanabira/templates/utils/image.edit.mako:80
+#: hanabira/templates/utils/image.edit.mako:107
+#, fuzzy
+msgid "Left"
+msgstr "消す"
+
+#: hanabira/templates/utils/image.edit.mako:81
+#: hanabira/templates/utils/image.edit.mako:108
+msgid "Center"
+msgstr ""
+
+#: hanabira/templates/utils/image.edit.mako:82
+#: hanabira/templates/utils/image.edit.mako:109
+msgid "Right"
+msgstr ""
+
+#: hanabira/templates/utils/image.edit.mako:87
+#: hanabira/templates/utils/image.edit.mako:114
+msgid "Font"
+msgstr ""
+
+#: hanabira/templates/utils/image.edit.mako:97
+msgid "Bottom text"
+msgstr ""
+
+#: hanabira/templates/utils/image.edit.mako:126
+#: hanabira/templates/utils/image.new.mako:19
+msgid "Dimensions"
+msgstr ""
+
+#: hanabira/templates/utils/image.edit.mako:134
+#: hanabira/templates/utils/image.new.mako:23
+msgid "Save animation"
+msgstr ""
+
+#: hanabira/templates/utils/image.edit.mako:140
+#: hanabira/templates/utils/image.new.mako:31
+msgid "Draw"
+msgstr ""
+
+#: hanabira/templates/utils/image.new.mako:7
+msgid "From existing file"
+msgstr ""
+
+#: hanabira/templates/utils/image.new.mako:11
+msgid "Upload"
+msgstr ""
+
+#: hanabira/templates/utils/text.mako:28
+msgid "View"
+msgstr ""
+
+#: hanabira/templates/utils/text.mako:28
+msgid "Edit (simple)"
+msgstr "変更"
+
+#: hanabira/templates/utils/text.mako:36
+msgid "Save"
+msgstr ""
+
+#: hanabira/templates/view/bookmarks.mako:12
+#: hanabira/templates/view/post.mako:43
+msgid "Archived"
+msgstr ""
+
+#: hanabira/templates/view/bookmarks.mako:15
+#: hanabira/templates/view/post.mako:46
+msgid "Autosage"
+msgstr ""
+
+#: hanabira/templates/view/bookmarks.mako:18
+msgid "Unsubscribe"
+msgstr ""
+
+#: hanabira/templates/view/bookmarks.mako:23
+msgid " new replies,"
+msgstr ""
+
+#: hanabira/templates/view/bookmarks.mako:25
+msgid "no new replies, "
+msgstr ""
+
+#: hanabira/templates/view/bookmarks.mako:27
+msgid "last"
+msgstr ""
+
+#: hanabira/templates/view/bookmarks.mako:29
+msgid "No replies."
+msgstr ""
+
+#: hanabira/templates/view/bookmarks.mako:36
+msgid "There is nothing here!"
+msgstr ""
+
+#: hanabira/templates/view/post.mako:49
+msgid "Locked"
+msgstr ""
+
+#: hanabira/templates/view/post.mako:52
+msgid "Sticky"
+msgstr ""
+
+#: hanabira/templates/view/post.mako:63
+msgid "Vote up"
+msgstr ""
+
+#: hanabira/templates/view/post.mako:66
+#: hanabira/templates/view/settings.mako:12
+msgid "Reputation"
+msgstr ""
+
+#: hanabira/templates/view/post.mako:70
+msgid "Vote down"
+msgstr ""
+
+#: hanabira/templates/view/post.mako:88
+msgid "Reply"
+msgstr ""
+
+#: hanabira/templates/view/post.mako:94
+msgid "Show"
+msgstr ""
+
+#: hanabira/templates/view/post.mako:100
+msgid "Full thread"
+msgstr "返信"
+
+#: hanabira/templates/view/post.mako:116
+msgid "File:"
+msgstr "ファイル："
+
+#: hanabira/templates/view/post.mako:138
+msgid "Your censorship settings forbid this file."
+msgstr ""
+
+#: hanabira/templates/view/post.mako:171
+msgid "Comment is too long."
+msgstr ""
+
+#: hanabira/templates/view/post.mako:172
+msgid "Full version"
+msgstr "全て読む"
+
+#: hanabira/templates/view/post.mako:176
+#, python-format
+msgid "Post was deleted by %s at %s"
+msgstr ""
+
+#: hanabira/templates/view/post.mako:180
+#, python-format
+msgid "This thread has been moved to %s."
+msgstr ""
+
+#: hanabira/templates/view/post.mako:182
+#, python-format
+msgid "This thread has been moved here from %s."
+msgstr ""
+
+#: hanabira/templates/view/post.mako:186
+msgid "Thread is expanded."
+msgstr "糸は広げてあります"
+
+#: hanabira/templates/view/post.mako:187
+msgid "Truncate"
+msgstr ""
+
+#: hanabira/templates/view/post.mako:191
+#, python-format
+msgid ", %s of them with files."
+msgstr ""
+
+#: hanabira/templates/view/post.mako:192
+msgid "Expand thread"
+msgstr "糸を広げる"
+
+#: hanabira/templates/view/posts.mako:27
+msgid "Delete post(s)"
+msgstr ""
+
+#: hanabira/templates/view/settings.mako:7
+msgid "Censorship ratings"
+msgstr ""
+
+#: hanabira/templates/view/settings.mako:16
+msgid "Interface"
+msgstr ""
+
+#: hanabira/templates/view/settings.mako:26
+msgid "Scroll thread to the last post you are replied while redirecting to thread"
+msgstr ""
+
+#: hanabira/templates/view/settings.mako:26
+msgid "Autoscroll"
+msgstr ""
+
+#: hanabira/templates/view/settings.mako:34
+msgid "Popup behaviour"
+msgstr ""
+
+#: hanabira/templates/view/settings.mako:34
+msgid "Reflinks"
+msgstr ""
+
+#: hanabira/templates/view/settings.mako:39
+msgid ""
+"This will always set \"Go back to\" to selected redir, \"auto\" sets "
+"redir to current page when posting from board and to thread otherwise. "
+"Without default goback just remember last choice"
+msgstr ""
+
+#: hanabira/templates/view/settings.mako:44
+msgid "Accept"
+msgstr "変更"
+
+#: hanabira/templates/view/settings.mako:55
+msgid "Hidden threads"
+msgstr ""
+
+#: hanabira/templates/view/settings.mako:61
+msgid "Unhide"
+msgstr ""
+
+#: hanabira/templates/view/settings.mako:65
+#, python-format
+msgid "List other %s"
+msgstr ""
+
+#~ msgid "Can't make motivational poster without a title!"
+#~ msgstr ""
+
+#~ msgid "You have to wait %s more seconds before posting again"
+#~ msgstr ""
+
+#~ msgid "Maximal filesize is %.2f kb"
+#~ msgstr ""
+
+#~ msgid "Minimal filesize is %.2f kb"
+#~ msgstr ""
+
+#~ msgid "Maximal image resolution is %.2f mp"
+#~ msgstr ""
+
+#~ msgid "Minimal image resolution is %.2f mp"
+#~ msgstr ""
+
+#~ msgid "Up to %s files per post"
+#~ msgstr ""
+
+#~ msgid "Wordfilter"
+#~ msgstr ""
+
+#~ msgid "%s reply"
+#~ msgid_plural "%s replies"
+#~ msgstr[0] ""
+
+#~ msgid "%s post is omitted"
+#~ msgid_plural "%s posts are omitted"
+#~ msgstr[0] "レス%s件省略。"
+
+#~ msgid "%s post is deleted by OP"
+#~ msgid_plural "%s posts are deleted by OP"
+#~ msgstr[0] ""
+
+#~ msgid "no replies"
+#~ msgstr ""
+

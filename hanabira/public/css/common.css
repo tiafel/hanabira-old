@@ -1,0 +1,691 @@
+ul, ol {
+    margin: 0;
+    padding: 0 0 0 20px;
+    list-style-position: inside;
+}
+body {
+    margin: 0;
+    padding: 8px;
+    margin-bottom: auto;
+}
+.description {
+    font-size: .8em;
+}
+.subtitle {
+    font-size: .6em;
+}
+.fileinfo {	    
+    text-align: left;
+    margin: 0 20px 2px 20px;
+    font-size: .8em;
+    color: inherit;
+}
+.limited {
+	max-width: 360px;
+}
+.file .fileinfo {
+    margin: 0 0 2px 0;
+    padding: 0;
+}
+.file {
+    float: left;
+    margin: 0 20px;
+}
+.reply, .highlight {
+    padding: 0 1em 0 0;
+}
+.reply, .post-error, .popup {
+    border-style: solid;
+    border-width: 1px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.popup {
+	-moz-box-shadow: 5px 5px 10px #888;
+	-webkit-box-shadow: 5px 5px 10px #888;
+}
+form.reply {
+    padding: 3px;
+}
+.banner {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+#reply-replyText {
+    margin: 5px 5px 0 5px;
+    width: 98%;
+}
+#fieldtable table {
+    padding-top: 0;
+    margin-top: 0
+}
+.popup {
+    border-color: #000000;
+    padding: 3px;
+    position: absolute;	
+}
+.post-error {
+    background: #E04000;
+    color: #FFFFFF;
+    text-align: center;
+}
+img {
+    border: 0;
+}
+.highlight {
+    border-style: dashed;
+    border-width: 2px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+.abbrev {
+	padding: 0 0 0 20px;
+    color: #666666;
+}
+.postbody {	
+    padding: .5em 20px;
+}
+.message {
+    vertical-align: top;
+    text-align: inherit;
+}
+div p {
+    padding: 0;
+    margin: 0;
+}
+a {
+    cursor: pointer;
+}
+a:focus {
+    outline: 0;
+}
+a, .thumb {
+    border: none;
+	margin: 0;
+	padding: 0;
+}
+label, label input, .reflink, .reflink a {
+    text-align: left;
+}
+.icon {
+    background-repeat: no-repeat;
+    background-position: 0px center;
+    cursor: pointer;
+}
+.icon input {
+    position: absolute;
+    left: -9001px;
+}
+.transparent {
+    border: none;
+    background: none !important;
+    -moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+}
+label {
+    margin-left: .2em;
+}
+.label {
+    display: inline;
+}
+.cpanel, .reflink a, .hideinfo a, .abbrev a {
+    text-decoration: none;
+}
+pre {
+    margin: .4em 0;
+}
+.hideinfo {
+    font-size: .8em;
+}
+.rightaligned {
+    text-align: right;
+}
+.theader, .passvalid {
+    text-align: center;
+    padding: 2px;
+    clear: both;
+    margin-bottom: .5em;
+    border: solid 1px #CCCCCC;
+    font-weight: bold;
+    -moz-border-radius: 5px;
+}
+.adminbar {
+    clear: left;
+    float: left;
+}
+.stylebar {
+    clear: right;
+    float: right;
+}
+.logo {
+    clear: both;
+    font-size: 2em;
+}
+.textarea-ext {
+    vertical-align: top;
+    float: right;
+    font-family: monospace;
+}
+.textarea-ext a {
+    color: inherit;
+}
+.postblock {
+    padding-left: .5em;
+}
+#reply-tremail .postblock {
+    padding-right: .5em;
+}
+.userdelete {
+    float: right;
+    text-align: center;
+    white-space: nowrap
+}
+.postarea table {
+    margin: 0px auto;
+    text-align: left;
+}
+.footer {
+    text-align:center;
+    font-size:12px;
+    font-family:serif;
+    margin: 2em 0 0 0;
+}
+.dellist {
+    font-weight: bold;
+    text-align:center;
+}
+.delbuttons {
+    text-align:center;
+    padding-bottom:4px;
+}
+.postlists {
+    background: #FFFFFF;
+    width: 100%;
+    padding: 0;
+    color: #800000;
+}
+.postername, .replytitle, .postblock {
+    font-weight: bold;
+}
+.doubledash {
+    vertical-align: top;
+    clear: both;
+    float: left;
+}
+.replytitle {
+    font-size: 1.2em;
+}
+.postbody blockquote {
+    background: inherit;
+    margin: 0;
+    color: #789922;
+    padding: .3em 0;
+}
+.postbody blockquote blockquote {
+    color: #406010;
+    margin: 0;
+}
+.postbody blockquote blockquote blockquote {
+    color: #204010;
+    margin: 0;
+}
+.spoiler blockquote:hover {
+    color:#789922 !important;
+}
+.spoiler blockquote blockquote:hover {
+    color:#406010 !important;
+}
+.spoiler blockquote blockquote blockquote:hover {
+    color:#204010 !important;
+}
+hr {
+    border-style: solid none none none;
+    border-width: 1px;
+    border-color: #BBBBBB;
+}
+.nothumb {
+    background-color: #FFFFFF;
+    border-style: dotted;
+    margin: .3em .5em;
+}
+
+.rules {
+    margin: 0 auto;
+    font-size: .9em;
+}
+
+#code_div {
+    display: block;
+    width:100%;
+    height:100%;
+}
+#code_view {
+    width:100%;
+    height:100%;
+}
+#code_edit {
+    width:100%;
+    height:100%;
+}
+#code_edit_ta {
+    width:100%;
+    height:100%;
+}
+.paginator-arrow {
+    font-size: 1.5em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.document h1 {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.document ol {
+    padding-top: 5px;
+}
+.document blockquote {
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+.privacy-warning {
+    border: 2px #FF0000 dashed;
+    font-size: 1.2em;
+}
+.waiting0 {
+    background-image:url(/images/waiting0.gif);
+}
+.waiting1 {
+    background-image:url(/images/waiting1.gif);
+}
+.waiting2 {
+    background-image:url(/images/waiting2.gif);
+}
+.delete, .delete-file {
+    background-image:url(/images/delete.png);
+}
+.checked {
+    background-image:url(/images/delete_selected.png);
+}
+.hide {
+    background-image:url(/images/hidethread.png);
+}
+.signed {
+    background-image:url(/images/signed-on.png);
+}
+.unsigned {
+    background-image:url(/images/signed-off8.png);
+}
+.close {
+    background-image:url(/images/close.png);
+}
+.reply_ {
+	background-image:url(/images/reply.png);
+}
+.quote {
+	background-image:url(/images/quote.png);
+}
+.add_ {
+	background-image:url(/images/music/add.png);
+}
+.play_ {
+	background-image:url(/images/music/play.png);
+}
+.view_ {
+	background-image:url(/images/view.png);
+}
+.edit_ {
+	background-image:url(/images/edit.gif);
+}
+.search_google {
+        background-image:url(/images/google.png);
+}
+.search_iqdb {
+        background-image:url(/images/booru.png);
+}
+.logodobleft {
+	background-image:url(/css/img/dobleft.png); 
+	background-position:top right; 
+	background-repeat:no-repeat;
+	width:250px;
+	height:674px;
+}
+.logodobright {
+	background-image:url(/css/img/looongdobright.png); 
+	background-position:bottom left; 
+	background-repeat:no-repeat;
+	padding-left:30px;
+	text-align:left;
+	width:250px;
+}
+
+.names td {
+  text-align: center;
+  background: #EEAA88;
+  color: #600000;
+  padding: 0 5px;
+}
+.values td {
+  text-align: center;
+  background: #F0E0D6;
+  color: #600000;
+  text-decoration: none !important;
+  padding: 0 5px;
+}
+td.logo, td > .logo {
+  font-size: 1.5em;
+}
+.ipmark {
+	max-height:16px;
+}
+.threadlist {
+	vertical-align:top;
+	text-align:center;
+	border-left:1px solid #bbb;
+	padding-left: 20px;
+}
+.alternate {
+	display: none;
+}
+.imported {
+	color: #117743;
+}
+.exported {
+	color: #EE1105;
+}
+.imported a, .exported a {
+	text-decoration: underline;
+}
+
+/* Post revisions */
+.revision-table {
+    border-spacing:0;
+}
+.revision-header-row td {
+    padding-left: 5px;
+    font-size: 120%;
+    background-color: #DDDDDD;
+}
+.revision-header-index {
+    font-size: 140% !important;
+    font-weight: bold;
+}
+.revision-content-row td {
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+.revision-content-row ins {
+    background-color: #D1E1AD;
+    color: #405A04;
+    text-decoration: none;
+}
+.revision-content-row del {
+    background-color: #E5BDB2;
+    color: #A82400;
+    text-decoration: line-through;
+}
+/* Reputation */
+.reputation-positive {
+        color: #007700;
+        font-weight: bold;
+}
+.reputation-negative {
+        color: #770000;
+        font-weight: bold;
+}
+
+/* Music player */
+#player_container {
+	position: relative;
+	background-color:#eee;
+	width:418px;
+	height:80px;
+	border:1px solid #009be3;
+}
+#player_container  ul#player_controls {
+	list-style-type:none;
+	padding:0;
+	margin: 0;
+}
+#player_container  ul#player_controls li {
+	overflow:hidden;
+	text-indent:-9999px;
+}
+#player_play,
+#player_pause {
+	display: block;
+	position: absolute;
+	left:48px;
+	top:20px;
+	width:40px;
+	height:40px;
+	cursor: pointer;
+}
+#player_play {
+	background: url("/images/music/icons.png") 0 0 no-repeat;
+}
+
+#player_play.jqjp_hover {
+	background: url("/images/music/icons.png") -41px 0 no-repeat;
+}
+#player_pause {
+	background: url("/images/music/icons.png") 0 -42px no-repeat;
+}
+#player_pause.jqjp_hover {
+	background: url("/images/music/icons.png") -41px -42px no-repeat;
+}
+
+#ctrl_prev {
+	position: absolute;
+	left:20px;
+	top:26px;
+	background: url("/images/music/icons.png") 0 -112px no-repeat;
+	width:28px;
+	height:28px;
+	cursor: pointer;
+}
+
+#ctrl_prev:hover {
+	background: url("/images/music/icons.png") -29px -112px no-repeat;
+}
+
+#ctrl_prev.disabled {
+	background: url("/images/music/icons.png") -58px -112px no-repeat;
+	cursor:default;
+}
+
+#ctrl_next {
+	position: absolute;
+	left:88px;
+	top:26px;
+	background: url("/images/music/icons.png") 0 -141px no-repeat;
+	width:28px;
+	height:28px;
+	cursor: pointer;
+}
+
+#ctrl_next:hover {
+	background: url("/images/music/icons.png") -29px -141px no-repeat;
+}
+
+#ctrl_next.disabled {
+	background: url("/images/music/icons.png") -58px -141px no-repeat;
+	cursor:default;
+}
+
+
+#player_stop {
+	position: absolute;
+	left:126px;
+	top:26px;
+	background: url("/images/music/icons.png") 0 -83px no-repeat;
+	width:28px;
+	height:28px;
+	cursor: pointer;
+}
+#player_stop.jqjp_hover {
+	background: url("/images/music/icons.png") -29px -83px no-repeat;
+}
+#player_progress {
+	position: absolute;
+	left:164px;
+	top:32px;
+	background-color: #eee;
+	width:122px;
+	height:15px;
+}
+#player_progress_load_bar {
+	background: url("/images/music/bar_load.png")  top left repeat-x;
+	width:0px;
+	height:15px;
+	cursor: pointer;
+}
+#player_progress_load_bar.jqjp_buffer {
+	background: url("/images/music/bar_buffer.png")  top left repeat-x;
+}
+#player_progress_play_bar {
+	background: url("/images/music/bar_play.png") top left repeat-x ;
+	width:0px;
+	height:15px;
+}
+#player_volume_min {
+	position: absolute;
+	left:296px;
+	top:32px;
+	background: url("/images/music/icons.png") 0 -170px no-repeat;
+	width:18px;
+	height:15px;
+	cursor: pointer;
+}
+
+#player_volume_max {
+	position: absolute;
+	left:368px;
+	top:32px;
+	background: url("/images/music/icons.png") 0 -186px no-repeat;
+	width:18px;
+	height:15px;
+	cursor: pointer;
+}
+
+#player_volume_min.jqjp_hover {
+	background: url("/images/music/icons.png") -19px -170px no-repeat;
+}
+
+#player_volume_max.jqjp_hover {
+	background: url("/images/music/icons.png") -19px -186px no-repeat;
+}
+
+#player_volume_bar {
+	position: absolute;
+	left:314px;
+	top:37px;
+	background: url("/images/music/volume_bar.png") repeat-x top left;
+	width:46px;
+	height:5px;
+	cursor: pointer;
+}
+#player_volume_bar_value {
+	background: url("/images/music/volume_bar_value.png") repeat-x top left;
+	width:0px;
+	height:5px;
+}
+
+#play_time,
+#total_time {
+	position: absolute;
+	left:164px;
+	top:49px;
+	width:122px;
+	font-size:.8em;
+	font-style:oblique;
+}
+
+#total_time {
+	text-align: right;
+}
+
+#playlist_list {
+	width:418px;
+}
+
+#playlist_list ul{
+	list-style-type:none;
+	padding:10px 20px 20px 20px;
+	margin:0 0 10px 0;
+	background-color:#ddd;
+	border:1px solid #009be3;
+	border-top:none;
+	width:378px;
+	font-size:.9em;
+}
+
+#playlist_list li{
+	padding:4px 0 4px 20px;
+	border-bottom:1px solid #eee;
+	cursor: pointer;
+}
+
+#playlist_list li.playlist_current{
+	color:#0d88c1;
+	list-style-type:square;
+	list-style-position:inside;
+	padding-left:6px;
+	cursor: default;
+}
+
+#playlist_list li.playlist_hover {
+	color:#0d88c1;
+}
+
+
+/*
+ ****** jCrop *****
+*/
+.jcrop-holder { text-align: left; }
+
+.jcrop-vline, .jcrop-hline
+{
+	font-size: 0;
+	position: absolute;
+	background: white url('/images/jcrop.gif') top left repeat;
+}
+.jcrop-vline { height: 100%; width: 1px !important; }
+.jcrop-hline { width: 100%; height: 1px !important; }
+.jcrop-handle {
+	font-size: 1px;
+	width: 7px !important;
+	height: 7px !important;
+	border: 1px #eee solid;
+	background-color: #333;
+	/**width: 9px;
+	*height: 9px;*/
+}
+
+.jcrop-tracker { width: 100%; height: 100%; }
+
+.custom .jcrop-vline,
+.custom .jcrop-hline
+{
+	background: yellow;
+}
+.custom .jcrop-handle
+{
+	border-color: black;
+	background-color: #C7BB00;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+#admin_delete_panel {
+    position: fixed;
+    z-index: 4000;
+    bottom: 0;
+    top: auto;
+    background-color: #CCCCCC;
+    border: solid #333333 1px;
+    width: 80%;
+}

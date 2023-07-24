@@ -1,0 +1,80 @@
+[DEFAULT]
+debug = true
+
+[server:main]
+use = egg:Paste#http
+host = 127.0.0.1
+port = 7676
+threadpool_workers = 10
+
+[app:main]
+pylons.strict_tmpl_context = false
+pylons.tmpl_context_attach_args = false
+use = egg:hanabira
+full_stack = true
+lang = ru
+cache_dir = %(here)s/data
+static_files = false
+beaker.session.key = hanabira
+beaker.session.secret = somerandomstring
+
+sqlalchemy.url = mysql+pymysql://user:password@127.0.0.1/database?charset=utf8
+sqlalchemy.pool_recycle = 3600
+sqlalchemy.echo = false
+sqlalchemy.encoding=utf-8
+formalchemy.encoding=utf-8
+security.hash.salt = somerandomstring
+path.temp = /tmp/hanabira/
+path.static = hanabira/public/
+path.static_web = /
+
+chan.local_domains = 127.0.0.1, hanabira
+
+# Tracing
+trace.enabled = true
+trace.time_limit = 1.00
+trace.time_show_all = true
+trace.request_show_all = true
+
+# JS
+js.load_separate = true
+
+
+[loggers]
+keys = root, hanabira, trace
+
+[handlers]
+keys = console, crit_log
+
+[formatters]
+keys = generic
+
+[logger_root]
+level = INFO
+handlers =
+
+[logger_hanabira]
+level = DEBUG
+handlers = console, crit_log
+qualname = hanabira
+
+[logger_trace]
+level = DEBUG
+handlers = console
+qualname = trace
+
+[handler_console]
+class = StreamHandler
+args = (sys.stderr,)
+level = NOTSET
+formatter = generic
+
+[handler_crit_log]
+class = FileHandler
+args = ('crit.log',)
+level = CRITICAL
+formatter = generic
+
+[formatter_generic]
+format = %(asctime)s,%(msecs)03d %(levelname)-5.5s [%(name)s] %(message)s
+datefmt = %H:%M:%S

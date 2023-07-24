@@ -1,0 +1,19 @@
+# Non-template configs. 
+confs/*.ini
+
+# Python cache files
+*.pyc
+__pycache__/
+
+# Various generated data
+confs/data/
+
+# Logs
+*.log
+
+# IDE project files
+hanabira_new
+hanabira_new.wpu
+
+# vagrant
+.vagrant/

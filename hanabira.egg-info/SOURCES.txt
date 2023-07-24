@@ -1,0 +1,4 @@
+MANIFEST.in
+setup.cfg
+setup.py
+hanabira/__init__.py

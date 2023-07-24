@@ -1,0 +1,17 @@
+curl
+build-essential
+python-software-properties
+libxml2
+libxml2-dev
+libxslt1-dev
+liblz4-1
+zlib1g-dev
+libjpeg-dev
+libfreetype6-dev
+ttf-mscorefonts-installer
+python3-minimal
+python3-dev
+virtualenv
+mysql-server
+mysql-client
+nginx
